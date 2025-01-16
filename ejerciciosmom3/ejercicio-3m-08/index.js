@@ -1,8 +1,10 @@
-let frase= 'vida solo hay una.';
-let cont=0;
-for(let i; i<frase.length;i++){
-    if(frase[i]==""|| frase[i]=='.')
-        {cont++}
+let frase = ['vida solo hay una.'];
+let cont = 0;
+
+for (let i = 0; i < frase.length; i++) { 
+    if (frase[i] === ' ' || frase[i] === '.') { 
+        cont++;
+    }
 }
 
-alert(cont)
+alert(cont);
